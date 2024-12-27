@@ -3,30 +3,6 @@
 <suite name="Failed suite [Suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Testscript.QALegendProjectEditTest">
-        <methods>
-          <include name="browserintialistaion"/>
-          <include name="edit_test"/>
-        </methods>
-      </class> <!-- Testscript.QALegendProjectEditTest -->
-      <class name="Testscript.QAlegendLoginTests">
-        <methods>
-          <include name="browserintialistaion"/>
-          <include name="logintests"/>
-        </methods>
-      </class> <!-- Testscript.QAlegendLoginTests -->
-      <class name="Testscript.QALegendNoteTest">
-        <methods>
-          <include name="browserintialistaion"/>
-          <include name="addNote"/>
-        </methods>
-      </class> <!-- Testscript.QALegendNoteTest -->
-      <class name="Testscript.QALegendChecksentItems">
-        <methods>
-          <include name="browserintialistaion"/>
-          <include name="Check_sentItems"/>
-        </methods>
-      </class> <!-- Testscript.QALegendChecksentItems -->
       <class name="Testscript.QALgendDEleteEstimate">
         <methods>
           <include name="browserintialistaion"/>
