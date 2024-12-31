@@ -71,6 +71,7 @@ public class Base {
 		messagepage = new QALegendMessagesPage(driver);
 		projectpage = new QALegendProjectspage(driver);
 		estimatepage = new QALegendEstimatePage(driver);
+		announcementPage = new QALegendAnnouncementPage(driver);
 	}
 	
 		

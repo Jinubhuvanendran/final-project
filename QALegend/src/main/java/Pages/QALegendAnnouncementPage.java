@@ -28,7 +28,7 @@ public class QALegendAnnouncementPage {
 	WebElement announcement_savebtn;
 	
 	@FindBy(xpath = "//div[@id='announcement-table_filter']//descendant::input")
-	WebElement  ;
+	WebElement announcement_searchbox;
 		
 	@FindBy(xpath = "(//tr[@class='odd']//a)[1]")
 	WebElement announcement_title;
