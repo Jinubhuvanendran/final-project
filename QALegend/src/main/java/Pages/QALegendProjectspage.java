@@ -33,18 +33,20 @@ public class QALegendProjectspage {
 	
 	
 		public QALegendProjectspage(WebDriver driver) {
-		// TODO Auto-generated constructor stub
+		
 			this.driver=driver;
 			this.pgeutlity= new pageUtilities(driver);
 			PageFactory.initElements(driver, this);
 	}
 		
-		public void clickon_edit() {
+		public QALegendProjectspage clickon_edit() {
 			edit_projectbutton.click();
+			return this;
 		}
 		
-		public void clickon_title() {
+		public QALegendProjectspage clickon_title() {
 			edit_titlebutton.click();
+			return this;
 		}
 		
 		public void clickonbackspace() {

@@ -39,6 +39,8 @@ WebElement Estimates_Button;
 @FindBy(xpath="//span[text()='Estimate List']")
 WebElement Estimates_List_Button;
 	
+@FindBy(xpath = "//span[text()='Announcements']")
+WebElement dashboard_announcementbtn;
 	
 	
 	
@@ -49,14 +51,17 @@ public QALegendHomepage(WebDriver driver) {
 	PageFactory.initElements(driver, this);
 	}
 
-public void clickonDashboard_NotesButton() {	
+public QALegendHomepage clickonDashboard_NotesButton() {	
 	Dashboard_NotesButton.click();
+	return this;
 }
-public void Clickon_Dropdownbutton() {
+public QALegendHomepage Clickon_Dropdownbutton() {
 	Dropdownbutton.click();
+	return this;
 }
-public void Clickon_SignoutButton() {
+public QALegendHomepage Clickon_SignoutButton() {
 	SignoutButton.click();
+	return this;
 }
 public boolean Clickon_Dashboardbutton() {
 	dashBoardButton.click();
@@ -81,7 +86,14 @@ public void Clickon_Estimatesbutton() {
 }
 public void Clickon_EstimatesList_Button() {
 	Estimates_List_Button.click();
+}	
+public void clickOnDashboardAnnouncementBtn() {
+	dashboard_announcementbtn.click();  
 }
+public void scrollSideBar() {
+	pgeutlity.scrollElement(dashboard_announcementbtn);
+	}
+
 	
 		
 	

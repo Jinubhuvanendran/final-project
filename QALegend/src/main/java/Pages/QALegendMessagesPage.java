@@ -47,15 +47,18 @@ public class QALegendMessagesPage {
 		PageFactory.initElements(driver,this);
 	}
 	
-	public void clickon_composebutton() {
+	public QALegendMessagesPage clickon_composebutton() {
 		composeButton.click();
+		return this;
 	}
 	
-	public void clickon_tobutton() {
+	public QALegendMessagesPage clickon_tobutton() {
 		tobutton.click();
+		return this;
 	}
-	public void click_ontosendermessage() {
+	public QALegendMessagesPage click_ontosendermessage() {
 		toMessagebutton.click();
+		return this;
 	}
 	public void enterSubject() {
 		Subject_Input.sendKeys("newsubject1");

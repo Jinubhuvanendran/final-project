@@ -1,5 +1,7 @@
 package Utilities;
 
+import javax.lang.model.element.Element;
+
 import org.openqa.selenium.JavascriptExecutor;
 import org.openqa.selenium.Keys;
 import org.openqa.selenium.WebDriver;
@@ -63,5 +65,19 @@ public class pageUtilities {
 		Actions action = new Actions(driver);
 		action.sendKeys(Keys.BACK_SPACE).build().perform();
 	}
-
+    public void scrollElement(WebElement element) {
+    	JavascriptExecutor js=(JavascriptExecutor) driver;
+    	js.executeScript("arguments[0].scrollIntoView(true);", element);
+    	
+    }	
+	public void enterTextOnWebElement(WebElement element, String text) {
+		element.sendKeys(text);
+		
+	}
+	
+	public void clickOnElement(WebElement element) {
+		element.click();
+	
 }
+	}
+

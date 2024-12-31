@@ -60,6 +60,16 @@
     <artifactId>org.eclipse.jgit</artifactId>
     <version>7.1.0.202411261347-r</version>
 </dependency>
+<dependency>
+			<groupId>com.github.javafaker</groupId>
+			<artifactId>javafaker</artifactId>
+			<version>0.15</version>
+		</dependency>
+		<dependency>
+			<groupId>org.projectlombok</groupId>
+			<artifactId>lombok</artifactId>
+			<version>1.18.22</version>
+		</dependency>
 </dependencies>
  <build>
 	<plugins>   

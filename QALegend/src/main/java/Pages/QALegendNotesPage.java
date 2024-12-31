@@ -27,7 +27,7 @@ public class QALegendNotesPage {
 	WebElement AddNoteSaveButton;
 	
 	@FindBy(xpath="(//a[@class='edit'])[1]")
-	WebElement TableNoteTitle; //tablinte akthenote title
+	WebElement TableNoteTitle;
 	
 	@FindBy(xpath="//div[@id='note-table_filter']//descendant::input")
 	WebElement NoteSearchButton;
@@ -67,12 +67,13 @@ public class QALegendNotesPage {
 
 
 
-	public void clickon_AddNoteButton() {
+	public QALegendNotesPage clickon_AddNoteButton() {
 		AddNoteButton.click();
+		return this;
 	}
 	public String getnotetitle() {
 		String TitleField = TableNoteTitle.getText();
-		return TitleField;
+		return TitleField; 
 	}
 	public void searchNote(String noteName) {
 		

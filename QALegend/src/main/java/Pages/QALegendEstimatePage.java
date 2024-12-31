@@ -79,23 +79,28 @@ public QALegendEstimatePage(WebDriver driver) {
 	
 	
 	
-	public void Clickon_AddEstimate() {
+	public QALegendEstimatePage Clickon_AddEstimate() {
 		AddEstimate_Button.click();
+		return this;
 	}
 	
-	public void clickon_EstimateDate() {
+	public QALegendEstimatePage clickon_EstimateDate() {
 		Estimate_datebutton.click();
+		return this;
 	}
 	
-	public void Clickon_Date() {
+	public QALegendEstimatePage Clickon_Date() {
 		EstimateDateCalendar.click();
+		return this;
 	}
 	
-	public void clickon_ValidUntil() {
+	public QALegendEstimatePage clickon_ValidUntil() {
 		Valid_Untilbutton.click();
+		return this;
 	}
-	public void clickon_Date1() {
+	public QALegendEstimatePage clickon_Date1() {
 		Validuntilcalendardate.click();
+		return this;
 	}
 	
 	public void clickon_Clientdropdown() {

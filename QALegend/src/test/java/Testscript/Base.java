@@ -18,6 +18,7 @@ import org.testng.annotations.Parameters;
 import com.google.common.io.Files;
 
 import Pages.QALegandLoginPage;
+import Pages.QALegendAnnouncementPage;
 import Pages.QALegendEstimatePage;
 import Pages.QALegendHomepage;
 import Pages.QALegendMessagesPage;
@@ -35,6 +36,7 @@ public class Base {
 	QALegendMessagesPage messagepage;
 	QALegendProjectspage projectpage;
 	QALegendEstimatePage estimatepage;
+	QALegendAnnouncementPage announcementPage;
 	
 	@BeforeMethod(alwaysRun = true)
 	@Parameters({"browser"})
@@ -73,13 +75,7 @@ public class Base {
 	
 		
 	}
-	/*public void getScreenshotpath(WebDriver driver,String Testcasname) {
-		TakesScreenshot ts = (TakesScreenshot)driver;
-		File source=ts.getScreenshotAs(OutputType.FILE);
-		String destinationfile = System.getProperty("user.dir")+"\\test-output"+Testcasname+".png";
-		Files.copy(source, source);*/
-		
-	}
-	
+}
+
 	
 

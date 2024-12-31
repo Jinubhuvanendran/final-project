@@ -20,7 +20,7 @@ import org.testng.annotations.Test;
 
 public class QAlegendLoginTests extends Base {
 	public WebDriver driver;
-	@Test
+	@Test(retryAnalyzer = Testscript.RetryAnalyser.class)
 	
 	public void logintests() throws InterruptedException {
 	

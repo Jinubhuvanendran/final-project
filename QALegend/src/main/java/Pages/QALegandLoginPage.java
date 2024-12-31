@@ -33,14 +33,15 @@ public class QALegandLoginPage  {
 	}
 
 	public void LogintoQALegend(String email,String password) {
-		pgeutlity.Insert_Value(usernameField,email); //add the data to input
-		pgeutlity.Insert_Value(passwordField,password); // add the data to input
-		pgeutlity.Clickon_Element(SignInButton);   // methods used to combine the login page and the methods from the pageUtilities page is added here
+		pgeutlity.Insert_Value(usernameField,email); 
+		pgeutlity.Insert_Value(passwordField,password); 
+		pgeutlity.Clickon_Element(SignInButton);   
 		
 	}	
 	
-	public void Refreshdriver() {
+	public QALegandLoginPage Refreshdriver() {
 		driver.navigate().refresh();
+		return this;
 	}
 	public boolean FindSigninLabel() {
 		Signinlabel.isDisplayed();
