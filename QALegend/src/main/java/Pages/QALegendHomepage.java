@@ -14,6 +14,7 @@ public class QALegendHomepage {
 	WebElement Dashboard_NotesButton;
 	
 	@FindBy(xpath="//span[text()='Lekshmi Nair']")
+	public
 	WebElement Dropdownbutton;
 	
 	@FindBy(xpath="//i[@class='fa fa-power-off mr10']")

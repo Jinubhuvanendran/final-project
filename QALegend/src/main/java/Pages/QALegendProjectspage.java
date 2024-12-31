@@ -55,7 +55,7 @@ public class QALegendProjectspage {
 		}
 		
 		public void eneterdata_title() {
-			edit_titlebutton.sendKeys("Title1");
+			edit_titlebutton.sendKeys("jinuTitle1");
 		}
 
 		public void savethetitle() {

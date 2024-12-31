@@ -58,7 +58,7 @@ public class QALegendMessagesPage {
 		toMessagebutton.click();
 	}
 	public void enterSubject() {
-		Subject_Input.sendKeys("subject1");
+		Subject_Input.sendKeys("newsubject1");
 	}
 	public void entermessage() {
 		messageInput.sendKeys("Message1");

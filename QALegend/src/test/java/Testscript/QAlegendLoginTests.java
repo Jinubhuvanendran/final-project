@@ -10,7 +10,11 @@ import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
 import org.testng.annotations.Test;
 import org.testng.AssertJUnit;
+
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -24,7 +28,7 @@ public class QAlegendLoginTests extends Base {
 		loginpage.Refreshdriver();
 		loginpage.LogintoQALegend(properties.getProperty("email"), properties.getProperty("wrongpassword"));	
 		loginpage.LogintoQALegend(properties.getProperty("email"), properties.getProperty("password"));
-		Thread.sleep(3000);
+		
 		AssertJUnit.assertEquals(true,homePage.Clickon_Dashboardbutton());
 	}
 }

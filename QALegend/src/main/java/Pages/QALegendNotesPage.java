@@ -33,6 +33,7 @@ public class QALegendNotesPage {
 	WebElement NoteSearchButton;
 	
 	@FindBy(xpath="(//i[@class='fa fa-times fa-fw'])[1]")
+	public
 	WebElement Deleteno1;
 	
 	@FindBy(xpath="//button[@id='confirmDeleteButton']")

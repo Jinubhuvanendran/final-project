@@ -1,115 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="8" passed="7" failed="1" skipped="0">
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-12-27T20:12:22 IST" name="Suite" finished-at="2024-12-27T20:14:16 IST" duration-ms="113430">
+  <suite started-at="2024-12-28T19:03:26 IST" name="Suite" finished-at="2024-12-28T19:03:43 IST" duration-ms="16905">
     <groups>
     </groups>
-    <test started-at="2024-12-27T20:12:22 IST" name="Test" finished-at="2024-12-27T20:14:16 IST" duration-ms="113430">
-      <class name="Testscript.QALegendProjectEditTest">
-        <test-method is-config="true" signature="browserintialistaion(java.lang.String)[pri:0, instance:Testscript.QALegendProjectEditTest@305ffe9e]" started-at="2024-12-27T20:13:38 IST" name="browserintialistaion" finished-at="2024-12-27T20:13:43 IST" duration-ms="5711" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserintialistaion -->
-        <test-method signature="edit_test()[pri:0, instance:Testscript.QALegendProjectEditTest@305ffe9e]" started-at="2024-12-27T20:13:43 IST" name="edit_test" finished-at="2024-12-27T20:13:52 IST" duration-ms="8435" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- edit_test -->
-      </class> <!-- Testscript.QALegendProjectEditTest -->
-      <class name="Testscript.QALegenddeleteNote$QALegendNoteTest">
-        <test-method is-config="true" signature="browserintialistaion(java.lang.String)[pri:0, instance:Testscript.QALegenddeleteNote$QALegendNoteTest@23e84203]" started-at="2024-12-27T20:12:32 IST" name="browserintialistaion" finished-at="2024-12-27T20:12:37 IST" duration-ms="4265" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserintialistaion -->
-        <test-method signature="addNote()[pri:0, instance:Testscript.QALegenddeleteNote$QALegendNoteTest@23e84203]" started-at="2024-12-27T20:12:37 IST" name="addNote" finished-at="2024-12-27T20:12:53 IST" duration-ms="16796" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNote -->
-      </class> <!-- Testscript.QALegenddeleteNote$QALegendNoteTest -->
-      <class name="Testscript.QALegendChecksentItems">
-        <test-method is-config="true" signature="browserintialistaion(java.lang.String)[pri:0, instance:Testscript.QALegendChecksentItems@514646ef]" started-at="2024-12-27T20:13:29 IST" name="browserintialistaion" finished-at="2024-12-27T20:13:33 IST" duration-ms="4840" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserintialistaion -->
-        <test-method signature="Check_sentItems()[pri:0, instance:Testscript.QALegendChecksentItems@514646ef]" started-at="2024-12-27T20:13:33 IST" name="Check_sentItems" finished-at="2024-12-27T20:13:38 IST" duration-ms="4325" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Check_sentItems -->
-      </class> <!-- Testscript.QALegendChecksentItems -->
-      <class name="Testscript.QALegendNoteTest">
-        <test-method is-config="true" signature="browserintialistaion(java.lang.String)[pri:0, instance:Testscript.QALegendNoteTest@73eb439a]" started-at="2024-12-27T20:13:15 IST" name="browserintialistaion" finished-at="2024-12-27T20:13:20 IST" duration-ms="4648" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserintialistaion -->
-        <test-method signature="addNote()[pri:0, instance:Testscript.QALegendNoteTest@73eb439a]" started-at="2024-12-27T20:13:20 IST" name="addNote" finished-at="2024-12-27T20:13:29 IST" duration-ms="8687" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNote -->
-      </class> <!-- Testscript.QALegendNoteTest -->
-      <class name="Testscript.QAlegendLoginTests">
-        <test-method is-config="true" signature="browserintialistaion(java.lang.String)[pri:0, instance:Testscript.QAlegendLoginTests@19932c16]" started-at="2024-12-27T20:13:03 IST" name="browserintialistaion" finished-at="2024-12-27T20:13:08 IST" duration-ms="4945" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserintialistaion -->
-        <test-method signature="logintests()[pri:0, instance:Testscript.QAlegendLoginTests@19932c16]" started-at="2024-12-27T20:13:08 IST" name="logintests" finished-at="2024-12-27T20:13:15 IST" duration-ms="7676" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logintests -->
-      </class> <!-- Testscript.QAlegendLoginTests -->
-      <class name="Testscript.QAlegendSignoutTest">
-        <test-method is-config="true" signature="browserintialistaion(java.lang.String)[pri:0, instance:Testscript.QAlegendSignoutTest@792b749c]" started-at="2024-12-27T20:12:53 IST" name="browserintialistaion" finished-at="2024-12-27T20:12:57 IST" duration-ms="3814" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserintialistaion -->
-        <test-method signature="Signout()[pri:0, instance:Testscript.QAlegendSignoutTest@792b749c]" started-at="2024-12-27T20:12:57 IST" name="Signout" finished-at="2024-12-27T20:13:03 IST" duration-ms="5299" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- Signout -->
-      </class> <!-- Testscript.QAlegendSignoutTest -->
+    <test started-at="2024-12-28T19:03:26 IST" name="Test" finished-at="2024-12-28T19:03:43 IST" duration-ms="16905">
       <class name="Testscript.QALgendDEleteEstimate">
-        <test-method is-config="true" signature="browserintialistaion(java.lang.String)[pri:0, instance:Testscript.QALgendDEleteEstimate@302c971f]" started-at="2024-12-27T20:13:52 IST" name="browserintialistaion" finished-at="2024-12-27T20:14:01 IST" duration-ms="9111" status="PASS">
+        <test-method is-config="true" signature="browserintialistaion(java.lang.String)[pri:0, instance:Testscript.QALgendDEleteEstimate@4b013c76]" started-at="2024-12-28T19:03:26 IST" name="browserintialistaion" finished-at="2024-12-28T19:03:32 IST" duration-ms="5864" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -120,97 +18,11 @@
           <reporter-output>
           </reporter-output>
         </test-method> <!-- browserintialistaion -->
-        <test-method signature="AddEstimate()[pri:0, instance:Testscript.QALgendDEleteEstimate@302c971f]" started-at="2024-12-27T20:14:01 IST" name="AddEstimate" finished-at="2024-12-27T20:14:16 IST" duration-ms="14836" status="FAIL">
-          <exception class="org.openqa.selenium.ElementClickInterceptedException">
-            <message>
-              <![CDATA[element click intercepted: Element <i class="dot fa fa-circle"></i> is not clickable at point (27, 365). Other element would receive the click: <div class="modal in" id="ajaxModal" tabindex="-1" role="dialog" aria-labelledby="ajaxModal" aria-hidden="true" style="display: block;">...</div>
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [24e537879ae770f0d5900074a84f6f07, clickElement {id=f.7A0948FEB56C1EB49913F8F3D9C6E4D0.d.F4DC28E1C104284AC0990FC24D52DBF6.e.145}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\celis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52184/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (24e537879ae770f0d5900074a84f6f07)] -> xpath: (//i[@class='dot fa fa-circle'])[5]]
-Session ID: 24e537879ae770f0d5900074a84f6f07]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element <i class="dot fa fa-circle"></i> is not clickable at point (27, 365). Other element would receive the click: <div class="modal in" id="ajaxModal" tabindex="-1" role="dialog" aria-labelledby="ajaxModal" aria-hidden="true" style="display: block;">...</div>
-  (Session info: chrome=131.0.6778.205)
-Build info: version: '4.25.0', revision: '8a8aea2337'
-System info: os.name: 'Windows 11', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [24e537879ae770f0d5900074a84f6f07, clickElement {id=f.7A0948FEB56C1EB49913F8F3D9C6E4D0.d.F4DC28E1C104284AC0990FC24D52DBF6.e.145}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 131.0.6778.205, chrome: {chromedriverVersion: 131.0.6778.204 (52183f9e99a..., userDataDir: C:\Users\celis\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52184}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52184/devtoo..., se:cdpVersion: 131.0.6778.205, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Element: [[ChromeDriver: chrome on windows (24e537879ae770f0d5900074a84f6f07)] -> xpath: (//i[@class='dot fa fa-circle'])[5]]
-Session ID: 24e537879ae770f0d5900074a84f6f07
-at java.base/jdk.internal.reflect.DirectConstructorHandleAccessor.newInstance(DirectConstructorHandleAccessor.java:62)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:502)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:486)
-at org.openqa.selenium.remote.ErrorCodec.decode(ErrorCodec.java:167)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:138)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:50)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:190)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:216)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:174)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:545)
-at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:223)
-at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:76)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:51)
-at jdk.proxy2/jdk.proxy2.$Proxy13.click(Unknown Source)
-at Pages.QALegendEstimatePage.clickon_EstimatesList(QALegendEstimatePage.java:145)
-at Testscript.QALgendDEleteEstimate.AddEstimate(QALgendDEleteEstimate.java:34)
-at java.base/jdk.internal.reflect.DirectMethodHandleAccessor.invoke(DirectMethodHandleAccessor.java:103)
-at java.base/java.lang.reflect.Method.invoke(Method.java:580)
-at org.testng.internal.invokers.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:141)
-at org.testng.internal.invokers.TestInvoker.invokeMethod(TestInvoker.java:686)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethod(TestInvoker.java:230)
-at org.testng.internal.invokers.MethodRunner.runInSequence(MethodRunner.java:63)
-at org.testng.internal.invokers.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:992)
-at org.testng.internal.invokers.TestInvoker.invokeTestMethods(TestInvoker.java:203)
-at org.testng.internal.invokers.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:154)
-at org.testng.internal.invokers.TestMethodWorker.run(TestMethodWorker.java:134)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1597)
-at org.testng.TestRunner.privateRun(TestRunner.java:739)
-at org.testng.TestRunner.run(TestRunner.java:614)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:421)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:413)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:373)
-at org.testng.SuiteRunner.run(SuiteRunner.java:312)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:52)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:95)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1274)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1208)
-at org.testng.TestNG.runSuites(TestNG.java:1112)
-at org.testng.TestNG.run(TestNG.java:1079)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:293)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.ElementClickInterceptedException -->
+        <test-method signature="AddEstimate()[pri:0, instance:Testscript.QALgendDEleteEstimate@4b013c76]" started-at="2024-12-28T19:03:32 IST" name="AddEstimate" finished-at="2024-12-28T19:03:43 IST" duration-ms="10972" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- AddEstimate -->
       </class> <!-- Testscript.QALgendDEleteEstimate -->
-      <class name="Testscript.QALegendComposeMessageTest">
-        <test-method is-config="true" signature="browserintialistaion(java.lang.String)[pri:0, instance:Testscript.QALegendComposeMessageTest@7a35b0f5]" started-at="2024-12-27T20:12:22 IST" name="browserintialistaion" finished-at="2024-12-27T20:12:29 IST" duration-ms="6825" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- browserintialistaion -->
-        <test-method signature="addNote()[pri:0, instance:Testscript.QALegendComposeMessageTest@7a35b0f5]" started-at="2024-12-27T20:12:29 IST" name="addNote" finished-at="2024-12-27T20:12:32 IST" duration-ms="3099" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- addNote -->
-      </class> <!-- Testscript.QALegendComposeMessageTest -->
     </test> <!-- Test -->
   </suite> <!-- Suite -->
 </testng-results>

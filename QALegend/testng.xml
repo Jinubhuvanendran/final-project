@@ -3,14 +3,14 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
+      <class name="Testscript.QALgendDEleteEstimate"/>
+      <!--<class name="Testscript.QALegendProjectEditTest"/>
+      <class name="Testscript.QALegendChecksentItems"/>
       <class name="Testscript.QALegendComposeMessageTest"/>
-      <!--<class name="Testscript.QAlegendSignoutTest"/>
+      <class name="Testscript.QALegendNoteTest"/>
       <class name="Testscript.QALegenddeleteNote"/>
       <class name="Testscript.QAlegendLoginTests"/>
-      <class name="Testscript.QALegendNoteTest"/>
-      <class name="Testscript.QALegendChecksentItems"/>
-      <class name="Testscript.QALegendProjectEditTest"/>
-      <class name="Testscript.QALgendDEleteEstimate"/>-->
+      <class name="Testscript.QAlegendSignoutTest"/>-->
     </classes>
   </test> <!-- Test -->
 </suite> <!-- Suite -->

@@ -24,7 +24,7 @@ public class QALegendEstimatePage {
 	@FindBy(xpath="(//input[@type='text'])[6]")
 	WebElement Valid_Untilbutton;
 	
-	@FindBy(xpath="//td[text()='20']")
+	@FindBy(xpath="//td[text()='31']")
 	WebElement Validuntilcalendardate;
 	
 	@FindBy(xpath="//div[@class='select2-container select2 validate-hidden']")

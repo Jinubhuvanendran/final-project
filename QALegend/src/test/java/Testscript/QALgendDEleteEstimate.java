@@ -15,7 +15,7 @@ public class QALgendDEleteEstimate extends Base {
 		loginpage.LogintoQALegend(properties.getProperty("email"),properties.getProperty("password"));
 		homePage.Clickon_Estimatesbutton();
 		homePage.Clickon_EstimatesList_Button();
-		Thread.sleep(4000);
+		//Thread.sleep(4000);
 		estimatepage.Clickon_AddEstimate();
 		estimatepage.clickon_EstimateDate();
 		estimatepage.Clickon_Date();

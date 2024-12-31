@@ -21,8 +21,8 @@ public static void waitfortexttobepresentintheelement(WebDriver driver, WebEleme
 	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(Constants.Explicitwait));
 	wait.until(ExpectedConditions.textToBePresentInElement(element, text));
 }
-public static void waitforelementtobeselected(WebDriver driver,WebElement element) { // create method based on theneed 
-	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(Constants.Explicitwait)); //based on the condition class eduthu required object create aaki condition koduka
+public static void waitforelementtobeselected(WebDriver driver,WebElement element) { 
+	WebDriverWait wait = new WebDriverWait(driver, Duration.ofSeconds(Constants.Explicitwait)); 
 	wait.until(ExpectedConditions.elementToBeSelected(element));
 	}
 public static void waitforattributetobe(WebDriver driver,WebElement element,String atribute,String value) {

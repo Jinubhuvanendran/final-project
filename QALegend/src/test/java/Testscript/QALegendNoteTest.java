@@ -25,7 +25,7 @@ public class QALegendNoteTest extends Base {
 		notePage.clickon_AddNoteButton();
 		String noteTitle = notePage.AddNote(properties.getProperty("title")+fakerUtility.Randomnmbergenerator(),properties.getProperty("description"));
 		
-		Thread.sleep(4000);
+		//Thread.sleep(4000);
 		notePage.searchNote(noteTitle);
 		AssertJUnit.assertEquals(notePage.getnotetitle(), noteTitle);
 	}
