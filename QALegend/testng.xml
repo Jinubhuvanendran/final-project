@@ -3,10 +3,10 @@
 <suite name="Suite">
   <test thread-count="5" name="Test">
     <classes>
-      <class name="Testscript.QALegendAnnouncementPageTest"/>
+      <class name="Testscript.QALgendDEleteEstimate"/>
       <!--<class name="Testscript.QALegendProjectEditTest"/>
       <class name="Testscript.QALegendChecksentItems"/>
-      <class name="Testscript.QALgendDEleteEstimate"/>
+      <class name="Testscript.QALegendAnnouncementPageTest"/>
       <class name="Testscript.QALegendComposeMessageTest"/>
       <class name="Testscript.QALegendNoteTest"/>
       <class name="Testscript.QALegenddeleteNote"/>

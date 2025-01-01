@@ -3,12 +3,12 @@
 <suite name="Failed suite [Suite]">
   <test thread-count="5" name="Test(failed)">
     <classes>
-      <class name="Testscript.QALegendAnnouncementPageTest">
+      <class name="Testscript.QALgendDEleteEstimate">
         <methods>
           <include name="browserintialistaion"/>
-          <include name="addAnnouncement"/>
+          <include name="AddEstimate"/>
         </methods>
-      </class> <!-- Testscript.QALegendAnnouncementPageTest -->
+      </class> <!-- Testscript.QALgendDEleteEstimate -->
     </classes>
   </test> <!-- Test(failed) -->
 </suite> <!-- Failed suite [Suite] -->

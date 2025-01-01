@@ -44,7 +44,7 @@ public class QALegendNotesPage {
 	
 	
 	public QALegendNotesPage(WebDriver driver) {
-		// TODO Auto-generated constructor stub
+		
 		this.driver=driver;
 		this.pgeutlity=new pageUtilities(driver);
 		PageFactory.initElements( driver,this);

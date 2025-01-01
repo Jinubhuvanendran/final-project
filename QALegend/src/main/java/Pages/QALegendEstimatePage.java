@@ -24,7 +24,7 @@ public class QALegendEstimatePage {
 	@FindBy(xpath="(//input[@type='text'])[6]")
 	WebElement Valid_Untilbutton;
 	
-	@FindBy(xpath="//td[text()='31']")
+	@FindBy(xpath="//td[text()='7']")
 	WebElement Validuntilcalendardate;
 	
 	@FindBy(xpath="//div[@class='select2-container select2 validate-hidden']")
@@ -58,6 +58,7 @@ public class QALegendEstimatePage {
 	WebElement FirstEstimateDeleteButton;
 	
 	@FindBy(xpath="(//i[@class='dot fa fa-circle'])[5]")
+	public
 	WebElement Estimateslist;
 	
 	@FindBy(xpath="//td[text()='2024-12-09']")

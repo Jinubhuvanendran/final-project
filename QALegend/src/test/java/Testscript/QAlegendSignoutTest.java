@@ -24,7 +24,7 @@ public class QAlegendSignoutTest extends Base {
 	@Test
 	public void Signout() throws InterruptedException {
 		loginpage.LogintoQALegend(properties.getProperty("email"),properties.getProperty("password"));
-		//Thread.sleep(4000);
+		
 		WebDriverWait wait1 = new WebDriverWait(driver, Duration.ofSeconds(5));
 		wait1.until(ExpectedConditions.elementToBeClickable(homePage.Dropdownbutton));
 		homePage.Clickon_LekshmiNair();

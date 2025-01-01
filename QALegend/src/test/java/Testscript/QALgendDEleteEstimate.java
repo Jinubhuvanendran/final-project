@@ -1,8 +1,16 @@
 package Testscript;
 
 import org.testng.annotations.Test;
+
+import Pages.QALegendEstimatePage;
+
 import org.testng.AssertJUnit;
+
+import java.time.Duration;
+
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 import org.testng.Assert;
 import org.testng.annotations.Test;
 
@@ -15,7 +23,7 @@ public class QALgendDEleteEstimate extends Base {
 		loginpage.LogintoQALegend(properties.getProperty("email"),properties.getProperty("password"));
 		homePage.Clickon_Estimatesbutton();
 		homePage.Clickon_EstimatesList_Button();
-		//Thread.sleep(4000);
+		
 		estimatepage.Clickon_AddEstimate();
 		estimatepage.clickon_EstimateDate();
 		estimatepage.Clickon_Date();
@@ -30,7 +38,8 @@ public class QALgendDEleteEstimate extends Base {
 		estimatepage.clickon_notebutton();
 		estimatepage.addnote();
 		estimatepage.clickonsave();
-		Thread.sleep(4000);
+		WebDriverWait wait3= new WebDriverWait(driver, Duration.ofSeconds(5));
+		wait3.until(ExpectedConditions.elementToBeClickable(estimatepage.Estimateslist));
 		estimatepage.clickon_EstimatesList();
 		estimatepage.DeletebuttonEstimate_click();
 		Assert.assertEquals(estimatepage.datevisbility(), false);
